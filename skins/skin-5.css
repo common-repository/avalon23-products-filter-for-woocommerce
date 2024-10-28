@@ -1,0 +1,182 @@
+:root {
+    --avalon23-skin5-color1: #BFCDD9;/*filter title*/
+    --avalon23-skin5-color2: #51608C;/* count color image,label,colors,slider */
+    --avalon23-skin5-color3: #8697A6;/* slider bar */
+    --avalon23-skin5-color4: #BF8756;/* slider container */
+    --avalon23-skin5-color5: #BF8756;/* image  checked*/
+    --avalon23-skin5-color6: #8697A6;/* select border*/
+    --avalon23-skin5-color7: #8C4F2B;/* text*/
+}
+/*filter*/
+.avalon23-style-skin-5 .avalon23_filter_title {
+    background-color: var(--avalon23-skin5-color1);
+    margin-bottom: 10px;
+}
+.avalon23-style-skin-5{
+color: var(--avalon23-skin5-color7);
+}
+.avalon23-style-skin-5 [avalon23-data-tooltip]:before{
+    background-color: var(--avalon23-skin5-color2);
+    background-image: none;
+}
+.avalon23-style-skin-5 [avalon23-data-tooltip]:after{
+    border-color: var(--avalon23-skin5-color2) transparent transparent transparent;
+}
+.avalon23-style-skin-5 [avalon23-data-tooltip-location="bottom"]:after {
+    border-color: transparent transparent var(--avalon23-skin5-color2) transparent;
+}
+.avalon23-style-skin-5 [avalon23-data-tooltip-location="left"]:after {
+    border-color: transparent transparent transparent var(--avalon23-skin5-color2);
+}
+.avalon23-style-skin-5 [avalon23-data-tooltip-location="right"]:after {
+    border-color: transparent var(--avalon23-skin5-color2) transparent transparent;
+}
+.avalon23-style-skin-5 .avalon23-filter-navigation-label {
+    padding: 4px 16px 4px 4px;
+    background: var(--avalon23-skin5-color1);
+    border-radius: 0px; 
+    border: solid 1px var(--avalon23-skin5-color3) !important;
+    margin: 3px;
+    color: #663399;
+}
+.avalon23-style-skin-5 .avalon23-filter-navigation-label:after {
+    right: 2px;
+    top: 2px;
+    color: #d11111;
+}
+/*switcher*/
+.avalon23-style-skin-5 .switcher23:checked + .switcher23-toggle span {
+    background: var(--avalon23-skin5-color2);   
+}
+.avalon23-style-skin-5 .switcher23:checked + .switcher23-toggle:before {
+    background: var(--avalon23-skin5-color4);
+}
+.avalon23-style-skin-5 .switcher23-toggle:before {
+    background: var(--avalon23-skin5-color4);
+}
+/*select*/
+.avalon23-style-skin-5 .avalon23-filter-cell-average_rating select[data-key="average_rating"] {
+    color: var(--avalon23-skin5-color2);
+}
+.avalon23-style-skin-5 .selectm23 {
+    border: solid 2px var(--avalon23-skin5-color6);
+}
+.avalon23-style-skin-5 .selectm23 .selectm23-options {
+    outline: 2px solid var(--avalon23-skin5-color6);
+}
+.avalon23-style-skin-5 .selectm23 .selectm23-option {
+    padding: 5px;
+    border-bottom: 1px solid var(--avalon23-skin5-color6);
+}
+.avalon23-style-skin-5 .selectm23-selected {
+    border-radius: 0px;
+    background-image: none;
+    background-color: var(--avalon23-skin5-color1);
+    box-shadow: none;
+    border-color: var(--avalon23-skin5-color6);
+    cursor: pointer;
+}
+.avalon23-style-skin-5 .selectm23-option:hover {
+    background-color: var(--avalon23-skin5-color1);
+}
+.avalon23-style-skin-5 .avalon23-filter-cell-type-select select, .avalon23-style-skin-5 .avalon23-filter-cell-type-hierarchy_dd select {
+    box-shadow: none;
+    border-radius: 0px;
+    border: 2px solid var(--avalon23-skin5-color6);
+}
+.avalon23-style-skin-5 .avalon23-filter-cell-type-select select, .avalon23-style-skin-5 .avalon23-filter-cell-type-hierarchy_dd select {
+    color: var(--avalon23-skin5-color7);
+}
+/*textinput*/
+.avalon23-style-skin-5 .avalon23-text-search:focus{
+   outline-color: var(--avalon23-skin5-color2);
+}
+.avalon23-style-skin-5 input.avalon23-text-search {
+    background-color: var(--avalon23-skin5-color1);
+    border: 2px solid var(--avalon23-skin5-color6);
+    color: var(--avalon23-skin5-color7);
+}
+.avalon23-style-skin-5 .calendar23-data-input{
+    background-color: var(--avalon23-skin5-color1);
+    color: var(--avalon23-skin5-color7);
+    box-shadow: none;
+    border: 2px solid var(--avalon23-skin5-color6);
+}
+.avalon23-style-skin-5 ul.avalon23_text_ajax_result {
+    background-color: var(--avalon23-skin5-color1);
+}
+.avalon23-style-skin-5 .avalon23_text_ajax_result li a:hover {
+    background: var(--avalon23-skin5-color1);
+    filter: brightness(0.9);
+}
+/*slider*/
+.avalon23-style-skin-5 .ranger23-handler-left, .avalon23-style-skin-5 .ranger23-handler-right {
+    background: var(--avalon23-skin5-color2);
+}
+.avalon23-style-skin-5 .ranger23-bar {
+    background: var(--avalon23-skin5-color3)!important;
+}
+.avalon23-style-skin-5 .ranger23-container {
+    background: var(--avalon23-skin5-color4);
+}
+.avalon23-style-skin-5 .ranger23-min,.avalon23-style-skin-5 .ranger23-max {
+    font-size: 12px;
+}
+/*color*/
+.avalon23-style-skin-5 .avalon23-color-list .avalon23-color-checkbox.checked::before {
+    color: var(--avalon23-skin5-color4);
+}
+.avalon23-style-skin-5 .avalon23-color-count {
+    background: var(--avalon23-skin5-color2);
+}
+/*label*/
+.avalon23-style-skin-5 .avalon23-label-count {
+    background: var(--avalon23-skin5-color2);
+}
+.avalon23-style-skin-5 .avalon23-labels li .avalon23-label-checkbox {
+    background-color: var(--avalon23-skin5-color1);
+}
+.avalon23-style-skin-5 .avalon23-labels li .avalon23-label-checkbox:hover, .avalon23-style-skin-5 .avalon23-labels li .avalon23-label-checkbox.checked {
+    background-color: var(--avalon23-skin5-color3);
+    border-color: var(--avalon23-skin5-color3);
+}
+.avalon23-style-skin-5 .avalon23-labels li .avalon23-label-checkbox {
+    background-color: var(--avalon23-skin5-color4);
+}
+/*image*/
+.avalon23-style-skin-5 .avalon23-image-count {
+    background: var(--avalon23-skin5-color2);
+}
+.avalon23-style-skin-5 .avalon23-image-input:checked+label::before {
+    background-color: var(--avalon23-skin5-color5);
+}
+.avalon23-style-skin-5  .avalon23-images-list label::before {
+    border: 1px solid var(--avalon23-skin5-color2);
+}
+/*checkbox  radio*/
+.avalon23-style-skin-5 .avalon23_radio_checkbox li label.checked ~ .avalon23_disable_radio:after {
+    font-weight: bold;
+}
+.avalon23-style-skin-5 .avalon23_radio_checkbox_container input:checked ~ .avalon23_checkmark {
+    background-color: var(--avalon23-skin5-color4);
+}
+.avalon23-style-skin-5 .avalon23_radio_checkbox_container:hover input ~ .avalon23_checkmark {
+    background-color: var(--avalon23-skin5-color4);
+}
+.avalon23-style-skin-5 .avalon23_checkmark {
+    background-color: var(--avalon23-skin5-color3);
+}
+/*btn*/
+.avalon23-style-skin-5 .avalon23-btn {
+    font-size: 18px !important;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: unset;
+    box-shadow: none;
+    border: none;
+    color: var(--avalon23-skin5-color7) !important;
+    background: var(--avalon23-skin5-color1);
+}
+.avalon23-style-skin-5 .avalon23-btn:hover {
+    filter: brightness(95%);
+}

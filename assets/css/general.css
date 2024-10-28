@@ -1,0 +1,1016 @@
+/*theme com*/
+.avalon23-filter{
+    box-sizing: border-box;
+}
+.avalon23-filter ul{
+    padding-left: inherit;
+}
+.widget .avalon23-filter-list[bp~='grid'],.avalon23_filter_widget .avalon23-filter-list[bp~='grid']{
+    display: block !important;
+} 
+.widget .avalon23-filter ul li {
+    padding: 0px;
+    overflow: visible;
+}
+.avalon23-filter-list>div{
+    margin-bottom: 15px;
+}
+/*theme com*/
+.calendar23-data-input{
+    width: 100%;
+}
+.avalon23-h-image img{
+    width: 100%;
+}
+.avalon23-content-hide {
+    display: none;
+}
+/*text search*/
+
+  .avalon23_text_search_wrapper {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+  }
+  .avalon23_search-icon {
+    position: absolute;
+    top: 13px;
+    left: 8px;
+    width: 14px;
+  }
+
+  .avalon23_clear-icon {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    width: 10px;
+    cursor: pointer;
+    visibility: hidden;
+  }
+   input.avalon23-text-search {
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    width: 100%;
+    margin-bottom: 7px;
+    font-family: inherit;
+    padding: 7px 23px 7px 30px;
+    font-size: 0.9em;
+  } 
+
+  /* average rating */
+  
+  .avalon23-filter-cell-average_rating select[data-key="average_rating"] {
+    font-family: 'star';
+    color: #96588a;
+  }
+
+.avalon23-woocommerce-text-search-container{
+    position: relative;
+    width: 100%;
+}
+
+.avalon23-woocommerce-text-search-container input{
+    width: 100%;
+}
+
+.avalon23-woocommerce-text-search-wrapper{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+}
+
+.avalon23-woocommerce-text-search-wrapper .avalon23-text-search{
+    display: none;
+}
+
+.avalon23-not-ready-text-search{
+    border: dashed 2px red;
+}
+/* end text search*/
+.avalon23-filter-reset{
+    background-color: #663399;
+    display: none;
+    width: fit-content;
+}
+
+.avalon23-filter-reset-container, .avalon23-filter-filter-container{
+    display: inline-block;
+    width: 50%;
+}
+.avalon23-filter-reset-container{
+    text-align: left;
+}
+.avalon23-filter-filter-container{
+    text-align: right;
+}
+
+.avalon23-filter-cell-sku{
+    width: 100%;
+    clear: both;
+}
+
+.avalon23-filter-cell-type-select, .avalon23-filter-cell-type-hierarchy_dd,
+.avalon23-filter-cell-type-calendar{
+    min-width: 150px;
+}
+
+.avalon23-filter-cell-type-select select, .avalon23-filter-cell-type-hierarchy_dd select{
+    width: 100%;
+    width: -webkit-fill-available;
+    clear: both;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 6px;
+    padding: 0.428571429rem;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.avalon23-filter-cell-type-range_slider{
+    width: 100%;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.calendar23-selector{
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.calendar23-data-input{
+    border-radius: 0 !important;
+}
+
+.avalon23-filter-navigation{
+    margin-bottom: 9px;
+}
+
+.avalon23-filter-navigation-label{
+    position: relative;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 1px 16px 1px 4px;
+    background: #e7f3f7;
+    border-radius: 2px;
+    border: solid 1px #0090cb !important;
+    line-height: initial;
+    font-size: 0.8em;
+    cursor: pointer;
+    color: #663399;
+}
+
+.avalon23-filter-navigation-label:after{
+    content: '✗';
+    position: absolute;
+    right: 1px;
+    top: 0;
+    color: #d11111;
+}
+
+/***********************************************************/
+
+.avalon23_filter_title{
+    display: block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+    padding-right: 35px;
+    background-color: #f9f9f9;
+}
+
+.avalon23-btn{
+    align-items: center;
+    justify-content: center;
+    background-color: #37C;
+    color: #fff !important;
+    text-decoration: none !important;
+    height: 33px;
+    padding: 1px 1.1rem;
+    margin: 0 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    transition: background-color 190ms linear;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-size: 14px !important;
+    line-height: 31px !important;
+}
+
+.avalon23-btn-1{
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    font-size: 23px !important;
+}
+
+.avalon23-btn-icon{
+    height: auto;
+    padding: 0 0.7rem;
+    line-height: 0 !important;
+    font-size: 20px !important;
+}
+
+.avalon23-btn:hover{
+    background-color: #428bca;
+}
+
+.avalon23-notice{
+    color: #404040;
+    border: solid 1px #0090cb !important;
+    background: #e7f3f7; 
+    padding: 9px; 
+    font-size: 0.80em; 
+    margin-bottom: 9px;
+}
+
+/*                               checkbox radio filter                              */
+
+.avalon23_radio_checkbox_list li{
+    display: inline-block;
+    margin-right: 5px; 
+}
+.avalon23_radio_checkbox_list_1 li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.avalon23_radio_checkbox_list_2 li{
+    display: inline-block;
+    width: 47%;
+}
+.avalon23_radio_checkbox_list_3 li{
+    display: inline-block;
+    width: 31%;
+}
+.avalon23_radio_checkbox_list_4 li{
+    display: inline-block;
+    width: 23%;
+}
+ul.avalon23_radio_checkbox{
+    margin: 0px;
+    list-style: none;
+    margin-left: 10px;
+    overflow: auto;
+}
+.avalon23_radio_checkbox li .avalon23_disable_radio{
+    display: none;
+    margin-left: 3px;
+    color: red;
+}
+ul.avalon23_radio_checkbox  li{
+   padding-right: 5px; 
+}
+.avalon23_radio_checkbox li label.checked ~ .avalon23_disable_radio{
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 3px;
+    position: relative;
+    width: 14px;
+    height: 18px;
+}
+.avalon23_radio_checkbox li label.checked ~ .avalon23_disable_radio:after{
+    content: '✗';
+    position: absolute;
+    right: 1px;
+    top: 0;
+    color: #d11111;
+}
+.avalon23_radio_checkbox_container {
+  line-height: 20px;
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.avalon23_radio_checkbox_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.avalon23_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+.avalon23_radio_checkbox_container:hover input ~ .avalon23_checkmark {
+  background-color: #ccc;
+}
+.avalon23_radio_checkbox_container input:checked ~ .avalon23_checkmark {
+  background-color: #2196F3;
+}
+.avalon23_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.avalon23_radio_checkbox_container input:checked ~ .avalon23_checkmark:after {
+  display: block;
+}
+.avalon23_radio_checkbox_container.avalon23_rch_checkbox .avalon23_checkmark:after {
+  left: calc(50% - 2px);
+  top: calc(50% - 5px);
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.avalon23_rch_radio .avalon23_checkmark  {
+  border-radius: 50%;
+}
+
+.avalon23_radio_checkbox_container.avalon23_rch_radio .avalon23_checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+/*           Lasbels                                         */
+ul.avalon23-labels{
+    margin: 0px;
+    padding-top: 5px;
+}
+ul.avalon23-labels li{
+    position: relative;
+}
+.avalon23-labels li input{
+    display: none;
+}
+.avalon23-labels li .avalon23-label-checkbox:hover,
+.avalon23-labels li .avalon23-label-checkbox.checked {
+    background-color: #34495e;
+    border-color: #34495e;
+}
+
+
+.avalon23-labels li {
+    display: inline-block;
+    margin: 2px;
+    vertical-align: top;
+}
+
+.avalon23-labels li .avalon23-label-checkbox
+{
+    font-weight: bold;
+    display: block;
+    background-color: #efefef;
+    margin: 3px 3px 3px 0;
+    padding: 4px 4px;
+    width: 35px;
+    height: 35px;
+    line-height: 25px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.avalon23-labels li .avalon23-label-checkbox:hover,
+.avalon23-labels li .avalon23-label-checkbox.checked
+{
+    background-color: #96588a;
+    border-color: #96588a;
+    color: #fff;
+}
+
+.avalon23-label-count{
+    font-size: 12px;
+    position: absolute; 
+    background: orangered;
+    margin: -5px 0 0 23px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    width: 17px;
+    height: 17px;
+    line-height: 17px !important;
+    color: wheat;
+    text-align: center;
+    font-weight: bold !important;
+}
+/*            hierarchy drop-down   */
+.avalon23-filter-cell-type-hierarchy_dd ul{
+    list-style: none;
+    margin: 0px;
+}
+
+/*                 images                                */
+
+ul.avalon23-images-list {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.avalon23-images-list li {
+  display: inline-block;
+  position: relative;
+}
+
+.avalon23-images-list .avalon23-image-input {
+  display: none;
+}
+
+.avalon23-images-list label {
+  border: 1px solid #fff;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.avalon23-images-list label::before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+.avalon23-images-list label img {
+  margin-bottom: 0px;
+  height: 50px;
+  width: 50px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+.avalon23-image-input:checked+label {
+  border-color: #ddd;
+}
+
+.avalon23-image-input:checked+label::before {
+  content: "✓";
+  background-color: #96588a;
+  transform: scale(1);
+  z-index: 2;
+}
+.avalon23-images-list label:hover {
+  transform: scale(0.95);
+  filter: blur(0.5px);
+  z-index: -1;
+  transition-duration: 0.5s;
+}
+
+.avalon23-image-input:checked+label img {
+  transform: scale(0.9);
+  z-index: -1;
+}
+.avalon23-image-count{
+    line-height: 20px;
+    font-size: 12px;
+    position: absolute; 
+    background-color: #ff4500;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: wheat;
+    text-align: center;
+    font-weight: bold !important;
+    z-index: 1;
+}
+/*                      Color                 */
+
+ul.avalon23-color-list{
+    margin: 0px;
+    padding-top: 5px;
+}
+.avalon23-color-list li input{
+    display: none;
+}
+ul li .avalon23-color-checkbox:hover {
+  transform: scale(0.95);
+  filter: blur(1px);
+  z-index: -1;
+  transition-duration: 0.5s;
+}
+.avalon23-color-list .avalon23-color-checkbox.checked::before {
+    content: "✓";
+    background: transparent;
+    transform: scale(1);
+    font-size: 35px;
+    vertical-align: middle;
+    color: rgb(150 88 138 / 68%);
+    font-weight: 900;
+    z-index: 2;
+    transition-duration: 0.5s;
+}
+.avalon23-color-list li {
+    display: inline-block;
+    margin: 2px;
+    vertical-align: top;
+}
+.avalon23-color-list li .avalon23-color-checkbox
+{
+    display: block;
+    margin: 3px 3px 3px 0;
+    padding: 3px 4px;
+    width: 35px;
+    height: 35px;
+    line-height: 25px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    background-size: cover !important;;
+    background-position: center !important;;
+}
+.avalon23-color-count{
+    font-size: 10px;
+    position: absolute; 
+    background: orangered;
+    margin: -5px 0 0 23px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    width: 17px;
+    height: 17px;
+    line-height: 17px !important;
+    color: wheat;
+    text-align: center;
+    font-weight: bold !important;
+    z-index: 2;
+}
+
+
+/*==         tool tips                  ==*/
+[avalon23-data-tooltip] {
+  position: relative;
+  z-index: 10;
+}
+
+/* Positioning and visibility settings of the tooltip */
+[avalon23-data-tooltip]:before,
+[avalon23-data-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: calc(100% + 2px);
+  pointer-events: none;
+  transition: 0.2s;
+  will-change: transform;
+}
+
+/* The actual tooltip with a dynamic width */
+[avalon23-data-tooltip]:before {
+  content: attr(avalon23-data-tooltip);
+  padding: 5px 10px;
+  min-width: 50px;
+  max-width: 300px;
+  width: max-content;
+  width: -moz-max-content;
+  border-radius: 6px;
+  font-size: 14px;
+/*   font-size: 0.73rem; */
+  background-color: rgba(59, 72, 80, 0.9);
+  background-image: linear-gradient(30deg,
+    rgba(59, 72, 80, 0.44),
+    rgba(59, 68, 75, 0.44),
+    rgba(60, 82, 88, 0.44));
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  white-space: pre-wrap;
+  transform: translate(-50%, -5px) scale(0.5);
+}
+
+/* Tooltip arrow */
+[avalon23-data-tooltip]:after {
+  content: '';
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  border-color: rgba(55, 64, 70, 0.9) transparent transparent transparent;
+  transition-duration: 0s; /* If the mouse leaves the element, 
+                              the transition effects for the 
+                              tooltip arrow are "turned off" */
+  transform-origin: top;   /* Orientation setting for the
+                              slide-down effect */
+  transform: translateX(-50%) scaleY(0);
+}
+
+/* Tooltip becomes visible at hover */
+[avalon23-data-tooltip]:hover:before,
+[avalon23-data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+/* Scales from 0.5 to 1 -> grow effect */
+[avalon23-data-tooltip]:hover:before {
+  transition-delay: 0.3s;
+  transform: translate(-50%, -5px) scale(1);
+}
+/* Slide down effect only on mouseenter (NOT on mouseleave) */
+[avalon23-data-tooltip]:hover:after {
+  transition-delay: 0.5s; /* Starting after the grow effect */
+  transition-duration: 0.2s;
+  transform: translateX(-50%) scaleY(1);
+}
+/*
+  That's it.
+*/
+
+/* Tooltip + arrow */
+[avalon23-data-tooltip-location="left"]:before,
+[avalon23-data-tooltip-location="left"]:after {
+  left: auto;
+  right: calc(100% + 5px);
+  bottom: 50%;
+}
+
+/* Tooltip */
+[avalon23-data-tooltip-location="left"]:before {
+  transform: translate(-5px, 50%) scale(0.5);
+}
+[avalon23-data-tooltip-location="left"]:hover:before {
+  transform: translate(-5px, 50%) scale(1);
+}
+
+/* Arrow */
+[avalon23-data-tooltip-location="left"]:after {
+  border-width: 5px 0px 5px 5px;
+  border-color: transparent transparent transparent rgba(55, 64, 70, 0.9);
+  transform-origin: left;
+  transform: translateY(50%) scaleX(0);
+}
+[avalon23-data-tooltip-location="left"]:hover:after {
+  transform: translateY(50%) scaleX(1);
+}
+
+
+
+/* RIGHT */
+[avalon23-data-tooltip-location="right"]:before,
+[avalon23-data-tooltip-location="right"]:after {
+  left: calc(100% + 5px);
+  bottom: 50%;
+}
+
+[avalon23-data-tooltip-location="right"]:before {
+  transform: translate(5px, 50%) scale(0.5);
+}
+[avalon23-data-tooltip-location="right"]:hover:before {
+  transform: translate(5px, 50%) scale(1);
+}
+
+[avalon23-data-tooltip-location="right"]:after {
+  border-width: 5px 5px 5px 0px;
+  border-color: transparent rgba(55, 64, 70, 0.9) transparent transparent;
+  transform-origin: right;
+  transform: translateY(50%) scaleX(0);
+}
+[avalon23-data-tooltip-location="right"]:hover:after {
+  transform: translateY(50%) scaleX(1);
+}
+
+
+
+/* BOTTOM */
+[avalon23-data-tooltip-location="bottom"]:before,
+[avalon23-data-tooltip-location="bottom"]:after {
+  top: calc(100% + 5px);
+  bottom: auto;
+}
+
+[avalon23-data-tooltip-location="bottom"]:before {
+  transform: translate(-50%, 5px) scale(0.5);
+}
+[avalon23-data-tooltip-location="bottom"]:hover:before {
+  transform: translate(-50%, 5px) scale(1);
+}
+
+[avalon23-data-tooltip-location="bottom"]:after {
+  border-width: 0px 5px 5px 5px;
+  border-color: transparent transparent rgba(55, 64, 70, 0.9) transparent;
+  transform-origin: bottom;
+}
+
+.avalon23-filter-cell-pa_color{
+    width: 100%;
+}
+
+/*          toggle  checkbox child            */
+li .avalon23_toggled_child_elem {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    filter: brightness(75%);
+    line-height: 0px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+li .avalon23_toggled_child_elem.avalon23_toggled_child_opened{ 
+    transform: rotate(-135deg);
+}
+.avalon23_children_list.avalon23_toggled_child_hide{
+    max-height: 0;
+    transform: scale(1,0);
+}
+.avalon23_children_list{
+    max-height: 1000px;
+    transition: all 0.5s ease-in-out;
+}
+
+/*          toggle              */
+.avalon23_toggled_box {
+  max-height: 500px;
+  transition: all 0.5s ease-in-out;
+}
+body .avalon23_toggled_hide {
+  max-height: 0;
+  transform: scale(1,0);
+}
+/*.avalon23-labels.avalon23_toggled_hide, .avalon23-color-list.avalon23_toggled_hide  {
+  max-height: 0;
+  transform: scale(1,0);
+}*/
+.avalon23_toggle_el {
+  position: absolute;
+  height: 30px;
+  width: 30px;  
+  right: 5px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  text-indent: 100%;
+  color: transparent;
+  white-space: nowrap;
+}
+.avalon23_toggle_icon,
+.avalon23_toggle_icon::before,
+.avalon23_toggle_icon::after {
+  position: absolute;
+  width: 24px;
+  height: 3px;
+  border-radius: 1px;
+  background-color: #43454b;;
+}
+.avalon23_toggle_icon {
+  top: calc(50% - 1px);
+  left: calc(50% - 12px);
+  transition: all 0.3s linear;
+}
+.avalon23_toggle_icon::before,
+.avalon23_toggle_icon::after {
+  content: "";
+  left: 0;
+}
+.avalon23_toggle_icon::before {
+  bottom: 7px;
+}
+.avalon23_toggle_icon::after {
+  top: 7px;
+  transition: all 0.3s linear;
+}
+
+.avalon23_toggled_opened .avalon23_toggle_el .avalon23_toggle_icon {
+  height: 4px;
+  width: 24px;
+  top: calc(50% - 2px);
+  transform: rotate(-180deg);
+}
+
+.avalon23_toggled_opened .avalon23_toggle_el .avalon23_toggle_icon::after {
+transform: scale(0);
+}
+
+.avalon23_toggled_opened .avalon23_toggle_el .avalon23_toggle_icon::before {
+  transform: scale(0);
+}
+
+/*  toggle filter */
+.avalon23_toggle_switch {
+  display: none;
+}
+.avalon23_toggle_close,.avalon23_toggle_open{
+    display: inline-block;
+}
+.avalon23_toggle_switch~.avalon23_toggled {
+  max-height: 0;
+  transform: scale(1,0);
+  transition: all 0.5s ease-in-out;
+  overflow: auto;
+}
+.avalon23_toggle_switch:checked~.avalon23_toggled {
+  max-height: 1200px;
+  transform: scale(1,1);
+  transition: all 0.5s ease-in-out;
+}
+.avalon23_toggle_switch:checked~label>.avalon23_toggle_open{
+    display: none;
+}
+.avalon23_toggle_switch:checked~label>.avalon23_toggle_close{
+    display: inline-block;
+}
+.avalon23_toggle_wrapper .avalon23_toggle_close{
+    display: none;
+}
+.avalon23_toggle_wrapper .avalon23_toggle_open_img{
+    height: 40px;
+    display: inline-block;
+}
+.avalon23_toggle_wrapper .avalon23_toggle_close_img{
+    height: 40px;
+    display: inline-block;
+}
+.avalon23_toggle_wrapper{
+    display: block !important;
+}
+
+ul.avalon23_text_ajax_result{
+    position: absolute;
+    width: 100%;
+    top: calc(100% - 7px);
+    z-index: 99;
+    background: #fff;
+    display: none;
+    list-style: none;
+    margin: 0px;
+}
+.avalon23_text_ajax_result li{
+    height: 40px;
+    margin: 2px;
+}
+.avalon23_text_ajax_result li img{
+    height: 40px;
+    display: inline-block;
+}
+.avalon23_text_ajax_result li a{
+    display: inline-block;
+    overflow: hidden;
+    height: 100%;
+    width: calc(100% - 45px);
+    padding: 3px;
+}
+input.avalon23-text-search:focus ~ ul.avalon23_text_ajax_result {
+  display: block;
+}
+ul.avalon23_text_ajax_result:hover {
+  display: block;
+}
+.avalon23_text_ajax_result li a:hover{
+    background: #ededed
+}
+
+.av23_lds-dual-ring {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.av23_lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #ccc;
+  border-color: #ccc transparent #ccc transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*wcag*/
+.av23_wcag_hidden{
+    display: none;
+}
+/*QR*/
+.avalon23-qr-generator-item img{
+    margin: 0 auto;
+}
+.avalon23-qr-generator-item h5{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+/* side sidebar */
+.avalon23-side-sidebar-wrapper{
+    position: fixed;
+    top: 0px;
+/*    left: -280px;*/
+    left: -100%;
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    transition: all 0.15s linear; 
+}
+.avalon23-side-sidebar-wrapper.avalon23-side-sidebar-wrapper-wide{
+    left: -300px;
+    width: 300px;    
+}
+.avalon23-side-sidebar-wrapper.avalon23_side_opened{
+    left: 0px;
+    transition: all 0.2s linear; 
+}
+.avalon23_side_opened.avalon23-side-sidebar-wrapper{
+    left: 0px;
+} 
+.avalon23-side-sidebar-container{
+    position: relative;
+    background: #f9f9f9;
+    padding: 10px;
+    height: 100%;
+    padding-bottom: 60px;
+}
+.avalon23-side-sidebar-wrapper .avalon23_filter_wrapper{
+    height: 100%;
+    overflow: auto;
+}
+.avalon23-side-sidebar-btn{
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+
+}
+.avalon23-side-sidebar-wrapper .avalon23-side-sidebar-btn{
+    position: absolute;
+    right: -36px;
+    top: 70px;
+    z-index: 999;
+    width: 36px;
+    height: 36px;
+/*    background: white;*/
+}
+.avalon23-side-sidebar-header{
+    padding: 5px;
+    text-align: right;
+    padding-right: 15px;
+}
+.avalon23-side-sidebar-header .avalon23-side-close-btn{
+    font-size: 32px;
+}
+.avalon23-side-sidebar-header .avalon23-side-close-btn:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+/*right*/
+.avalon23-side-sidebar-wrapper.avalon23-side-right-sidebar-wrapper{
+    right: -100%;
+    left: unset;
+    transition: all 0.2s linear; 
+}
+.avalon23-side-sidebar-wrapper.avalon23-side-right-sidebar-wrapper.avalon23-side-sidebar-wrapper-wide{
+    right: -300px;
+}
+.avalon23-side-sidebar-wrapper.avalon23-side-right-sidebar-wrapper .avalon23-side-sidebar-btn {
+    position: absolute;
+    right: unset; 
+    top: 70px;
+    left: -36px;
+}
+.avalon23_side_opened.avalon23-side-sidebar-wrapper.avalon23-side-right-sidebar-wrapper{
+    right: 0px;
+    left: unset;
+    transition: all 0.2s linear; 
+}
